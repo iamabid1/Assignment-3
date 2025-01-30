@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@1.14.0/dist/full.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/600882a594.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style type="text/tailwindcss">
+        @theme {
+              --font-primary:  Work Sans, serif; 
+              --color-main: #FFDC26;
+            }
+          </style>
+</head>
+
+<body class="font-primary">
+    <nav>
+        <div class="navbar bg-yellow-50 px-20 py-3 items-center justify-between">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+
+                </div>
+                <a class=" text-xl font-normal flex items-center"><img src="c1-assets/logo-header.png"
+                        alt="">Browse<span class="text-yellow-400">4</span>Pets</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="flex gap-5 tracking-tighter">
+                    <a href="#">Find a Pet</a>
+                    <a href="#">Breeds</a>
+                    <a href="#">Contact us</a>
+                </ul>
+            </div>
+            <div class="navbar-end gap-5">
+                <i class="fa-regular fa-bell"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <button class="btn btn-outline border-yellow-400  ">Login</button>
+                <a class="btn btn-warning bg-yellow-300 h-6">Button</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="mt-20 mx-20 ">
+            <!-- Text DIV -->
+             <div>
+                <h1 class="font-bold  text-4xl max-w-96">Pamper Your Pet, Because They Deserve the Bes</h1>
+                <p class="text-slate-500 max-w-lg">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+                <button class="bg-yellow-300 py-1 px-3 rounded-lg mt-5 btn-warning ">Find a Pet</button>
+                <img src="c1-assets/cat-big.png" alt="" class="w-full -z-50 relative -top-72">
+             </div>
+        </div>
+    </main>
+</body>
+
+</html>
