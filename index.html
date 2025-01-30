@@ -26,7 +26,7 @@
 
 <body class="font-primary">
     <nav>
-        <div class="navbar bg-yellow-50 px-20 py-3 items-center justify-between">
+        <div class="navbar bg-yellow-50 md:px-20 md:py-3 items-center justify-between">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -48,7 +48,7 @@
                     <a href="#">Contact us</a>
                 </ul>
             </div>
-            <div class="navbar-end gap-5">
+            <div class="navbar-end gap-5 flex-wrap flex">
                 <i class="fa-regular fa-bell"></i>
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <button class="btn btn-outline border-yellow-400  ">Login</button>
@@ -57,16 +57,69 @@
         </div>
     </nav>
     <main>
-        <div class="mt-20 mx-20 ">
+        <div class="mt-20 mx-20  ">
             <!-- Text DIV -->
              <div>
                 <h1 class="font-bold  text-4xl max-w-96">Pamper Your Pet, Because They Deserve the Bes</h1>
                 <p class="text-slate-500 max-w-lg">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
                 <button class="bg-yellow-300 py-1 px-3 rounded-lg mt-5 btn-warning ">Find a Pet</button>
-                <img src="c1-assets/cat-big.png" alt="" class="w-full -z-50 relative -top-72">
+             </div>
+             <div>
+                <img src="c1-assets/cat-big.png" alt="" class="w-full md:-z-50 relative md:-top-72 h-auto flex">
              </div>
         </div>
     </main>
+    <div class="mx-20"> 
+        <h1 class="mb-10 top-20 font-bold text-4xl">Browse By Categories</h1>
+    </div>
+    <section class="mx-20 z-40">
+        <!-- main container card  -->
+        <div class="flex gap-5 mb-36">
+            <!-- all containers -->
+             <div class="bg-yellow-200 w-52 h-52 justify-center items-center px-10 py-10 text-center rounded-lg" >
+                <div><img src="c1-assets/dog-cartoon.png" alt="" class=" relative left-6 bg-center bg-white p-4 rounded-full "></div>
+                <div>
+                   <h3 class="text-lg font-bold mt-5 ">Dog</h3>
+                   <p class="">3 Items</p>
+               </div>
+             </div>
+             <div class="bg-yellow-200 w-52 h-52 justify-center items-center px-10 py-10 text-center rounded-lg" >
+                <div><img src="c1-assets/fish-cartoon.png" alt="" class=" relative left-6 bg-center bg-white p-4 rounded-full "></div>
+                <div>
+                   <h3 class="text-lg font-bold mt-5 ">Fish</h3>
+                   <p class="">3 Items</p>
+               </div>
+             </div>
+             <div class="bg-yellow-200 w-52 h-52 justify-center items-center px-10 py-10 text-center rounded-lg" >
+                <div><img src="c1-assets/cat-cartoon.png" alt="" class=" relative left-6 bg-center bg-white p-4 rounded-full "></div>
+                <div>
+                   <h3 class="text-lg font-bold mt-5 ">Cat</h3>
+                   <p class="">3 Items</p>
+               </div>
+             </div>
+             <div class="bg-yellow-200 w-52 h-52 justify-center items-center px-10 py-10 text-center rounded-lg" >
+                <div><img src="c1-assets/bird-cartoon.png" alt="" class=" relative left-6 bg-center bg-white p-4 rounded-full "></div>
+                <div>
+                   <h3 class="text-lg font-bold mt-5 ">Bird</h3>
+                   <p class="">3 Items</p>
+               </div>
+             </div>
+             <div class="bg-yellow-200 w-52 h-52 justify-center items-center px-10 py-10 text-center rounded-lg" >
+                <div><img src="c1-assets/mouse-cartoon.png" alt="" class=" relative left-6 bg-center bg-white p-4 rounded-full "></div>
+                <div>
+                   <h3 class="text-lg font-bold mt-5 ">Small Pet</h3>
+                   <p class="">3 Items</p>
+               </div>
+             </div>
+             <div class="bg-yellow-200 w-52 h-52 justify-center items-center px-10 py-10 text-center rounded-lg" >
+                <div><img src="c1-assets/rabbit-cartoon.png" alt="" class=" relative left-6 bg-center bg-white p-4 rounded-full "></div>
+                <div>
+                   <h3 class="text-lg font-bold mt-5 ">Rabbit</h3>
+                   <p class="">3 Items</p>
+               </div>
+             </div>
+        </div>
+    </section>
 </body>
 
 </html>
