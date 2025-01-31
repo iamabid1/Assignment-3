@@ -53,12 +53,13 @@
             </div>
             <div class="navbar-end gap-5 flex-wrap flex">
                 <i class="fa-regular fa-bell"></i>
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <button class="btn btn-outline border-yellow-400  ">Login</button>
-                <a class="btn btn-warning bg-yellow-300 h-6">Button</a>
+                <i class="fa-solid fa-magnifying-glass "></i>
+                <button class="btn btn-outline border-yellow-400 hover:animate-spin ">Login</button>
+                <a class="btn btn-warning bg-yellow-300 h-6 animate-pulse">Register</a>
             </div>
         </div>
     </nav>
+    <img src="c1-assets/logo-footer.png" class="ml-5 mt-5 animate-bounce animate-spin " alt="">
     <main>
         <div class="mt-20 mx-20  ">
             <!-- Text DIV -->
@@ -130,44 +131,265 @@
             </div>
         </div>
     </section>
-    <section class="px20 py-32 px-28 md:bg-yellow-50 mx-20 rounded-xl ">
-        <h1 class="font-bold md:text-3xl md:mb-4">Trending Pet Products</h1>
-        <!-- main DIV  -->
-        <div class="md:flex">
-            <!-- Large Div  -->
-            <div class="md:flex">
-                <div class="md:w-96 bg-yellow-200 inline-block md:h-96 rounded-xl w-[350]">
-                    <div class="ml-10 mt-12">
-                        <h1 class="text-2xl font-bold">T-Shirt for Dogs</h1>
-                        <p class="text-gray-600 mt-4 mb-3">Discover a world of treats, toys, and <br> essentials
-                            handpicked
-                            for </p>
-                        <button class="btn">Shop Now</button>
-                    </div>
-                    <div>
-                        <img src="c1-assets/cute-pet-mid.png" class=" md:pl-44 relative md:bottom-20 inline  " alt="">
-                    </div>
+
+
+    <section class="lg:my-20 p-20 bg-orange-50">
+        <h3 class="text-4xl mx-auto lg:ml-40 font-bold  pb-10">Trending Pet Products</h3>
+
+        <div class="lg:my-20 bg-orange-50 block lg:flex gap-4">
+
+
+            <div class="ml-3 lg:ml-40">
+
+                <div
+                    class="space-y-9 lg:space-y-4 bg-yellow-200 lg:mx-8 md:w-96 lg:w-96 px-10 pt-10 h-96 lg:h-96 lg:px-10 lg:pt-10  rounded-xl">
+                    <h4 class="text-4xl lg:font-bold ">T-Shirts For Dogs</h4>
+                    <p class="text-lg lg:text-sm">Discover a world of treats ,toys and <br> essentials handpicked
+                        for
+                    </p>
+                    <button class="btn bg-white text-black">Shop now</button>
+
+                    <img class="relative bottom-56 left-44 lg:bottom-36 lg:left-24" src="c1-assets/cute-pet-small.png"
+                        alt="" class="">
                 </div>
-                <!-- Small divs -->
-                <div class="grid grid-cols-3 grid-rows-3">
 
-                    <div class="ml-7 flex items-center bg-white my-0">
-                        <div>
-                            <img src="c1-assets/dog-cartoon.png" alt="" class="w-2/3">
-                        </div>
-                        <div>
-                            <p>⭐ 4.5</p>
-                            <h5 class="font-semibold text-lg">Pet Bed</h5>
-                            <p class="text-base">$39.99</p>
-                        </div>
-                    </div>
-
-
-
-
-                </div>
             </div>
+
+            <div class="">
+
+                <div class="grid grid-cols-2 lg:grid-cols-3 lg:grid-rows-3 gap-5 lg:my-0 my-5">
+
+                   <!-- pet cards 1 -->
+
+                   <div
+                   class="bg-white lg:pr-20 pl-2 lg:pl-2 lg:py-4 rounded-xl flex items-center lg:justify-center gap-5 ">
+
+                   <!-- left side image container-->
+
+                   <div class="">
+                       <img class="bg-light-bg rounded-xl p-3 lg:p-5" src="images/dog-cartoon.png" alt=""
+                           srcset="">
+                   </div>
+
+                   <!-- right side text container-->
+                   <div class="">
+                       <div class="flex items-center lg:justify-center gap-3">
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <span class="">4.5</span>
+                       </div>
+                       <div class="space-y-2 ">
+                           <p class="font-bold inline">Pet bed</p>
+                           <p class="font-bold">$39.99</p>
+                       </div>
+                   </div>
+
+               </div>
+
+               <!-- pet cards 2 -->
+
+               <div
+                   class="bg-white lg:pr-20 pl-2 lg:pl-2 lg:py-4 rounded-xl flex items-center lg:justify-center gap-5 ">
+
+                   <!-- left side image container-->
+
+                   <div class="">
+                       <img class="bg-light-bg rounded-xl p-3 lg:p-5" src="images/fish-cartoon.png" alt=""
+                           srcset="">
+                   </div>
+
+                   <!-- right side text container-->
+                   <div class="">
+                       <div class="flex items-center lg:justify-center gap-3">
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <span class="">4.5</span>
+                       </div>
+                       <div class="space-y-2 ">
+                           <p class="font-bold inline">Pet bed</p>
+                           <p class="font-bold">$39.99</p>
+                       </div>
+                   </div>
+
+               </div>
+
+               <!-- pet cards 3 -->
+               <div
+                   class="bg-white lg:pr-20 pl-2 lg:pl-2 lg:py-4 rounded-xl flex items-center lg:justify-center gap-5 ">
+
+                   <!-- left side image container-->
+
+                   <div class="">
+                       <img class="bg-light-bg rounded-xl p-3 lg:p-5" src="images/bird-cartoon.png" alt=""
+                           srcset="">
+                   </div>
+
+                   <!-- right side text container-->
+                   <div class="">
+                       <div class="flex items-center lg:justify-center gap-3">
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <span class="">4.5</span>
+                       </div>
+                       <div class="space-y-2 ">
+                           <p class="font-bold inline">Pet bed</p>
+                           <p class="font-bold">$39.99</p>
+                       </div>
+                   </div>
+
+               </div>
+
+               <!-- pet cards 4 -->
+               <div
+                   class="bg-white lg:pr-20 pl-2 lg:pl-2 lg:py-4 rounded-xl flex items-center lg:justify-center gap-5 ">
+
+                   <!-- left side image container-->
+
+                   <div class="">
+                       <img class="bg-light-bg rounded-xl p-3 lg:p-5" src="images/rabbit-cartoon.png" alt=""
+                           srcset="">
+                   </div>
+
+                   <!-- right side text container-->
+                   <div class="">
+                       <div class="flex items-center lg:justify-center gap-3">
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <span class="">4.5</span>
+                       </div>
+                       <div class="space-y-2 ">
+                           <p class="font-bold inline">Pet bed</p>
+                           <p class="font-bold">$39.99</p>
+                       </div>
+                   </div>
+
+               </div>
+
+               <!-- pet cards 5 -->
+               <div
+                   class="bg-white lg:pr-20 pl-2 lg:pl-2 lg:py-4 rounded-xl flex items-center lg:justify-center gap-5 ">
+
+                   <!-- left side image container-->
+
+                   <div class="">
+                       <img class="bg-light-bg rounded-xl p-3 lg:p-5" src="images/bird-cartoon.png" alt=""
+                           srcset="">
+                   </div>
+
+                   <!-- right side text container-->
+                   <div class="">
+                       <div class="flex items-center lg:justify-center gap-3">
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <span class="">4.5</span>
+                       </div>
+                       <div class="space-y-2 ">
+                           <p class="font-bold inline">Pet bed</p>
+                           <p class="font-bold">$39.99</p>
+                       </div>
+                   </div>
+
+               </div>
+
+               <!-- pet cards 6 -->
+               <div
+                   class="bg-white lg:pr-20 pl-2 lg:pl-2 lg:py-4 rounded-xl flex items-center lg:justify-center gap-5 ">
+
+                   <!-- left side image container-->
+
+                   <div class="">
+                       <img class="bg-light-bg rounded-xl p-3 lg:p-5" src="images/pet-couch.png" alt=""
+                           srcset="">
+                   </div>
+
+                   <!-- right side text container-->
+                   <div class="">
+                       <div class="flex items-center lg:justify-center gap-3">
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <span class="">4.5</span>
+                       </div>
+                       <div class="space-y-2 ">
+                           <p class="font-bold inline">Pet bed</p>
+                           <p class="font-bold">$39.99</p>
+                       </div>
+                   </div>
+
+               </div>
+
+               <!-- pet cards 7 -->
+               <div
+                   class="bg-white lg:pr-20 pl-2 lg:pl-2 lg:py-4 rounded-xl flex items-center lg:justify-center gap-5 ">
+
+                   <!-- left side image container-->
+
+                   <div class="">
+                       <img class="bg-light-bg rounded-xl p-3 lg:p-5" src="images/fish-cartoon.png" alt=""
+                           srcset="">
+                   </div>
+
+                   <!-- right side text container-->
+                   <div class="">
+                       <div class="flex items-center lg:justify-center gap-3">
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <span class="">4.5</span>
+                       </div>
+                       <div class="space-y-2 ">
+                           <p class="font-bold inline">Pet bed</p>
+                           <p class="font-bold">$39.99</p>
+                       </div>
+                   </div>
+
+               </div>
+
+               <!-- pet cards 8 -->
+               <div
+                   class="bg-white lg:pr-20 pl-2 lg:pl-2 lg:py-4 rounded-xl flex items-center lg:justify-center gap-5 ">
+
+                   <!-- left side image container-->
+
+                   <div class="">
+                       <img class="bg-light-bg rounded-xl p-3 lg:p-5" src="images/pet-couch.png" alt=""
+                           srcset="">
+                   </div>
+
+                   <!-- right side text container-->
+                   <div class="">
+                       <div class="flex items-center lg:justify-center gap-3">
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <span class="">4.5</span>
+                       </div>
+                       <div class="space-y-2 ">
+                           <p class="font-bold inline">Pet bed</p>
+                           <p class="font-bold">$39.99</p>
+                       </div>
+                   </div>
+
+               </div>
+
+               <!-- pet cards 9 -->
+               <div
+                   class="bg-white lg:pr-20 pl-2 lg:pl-2 lg:py-4 rounded-xl lg:flex items-center lg:justify-center gap-5 hidden">
+
+                   <!-- left side image container-->
+
+                   <div class="">
+                       <img class="bg-light-bg rounded-xl p-3 lg:p-5" src="images/rabbit-cartoon.png" alt=""
+                           srcset="">
+                   </div>
+
+                   <!-- right side text container-->
+                   <div class="">
+                       <div class="flex items-center lg:justify-center gap-3">
+                           <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                           <span class="">4.5</span>
+                       </div>
+                       <div class="space-y-2 ">
+                           <p class="font-bold inline">Pet bed</p>
+                           <p class="font-bold">$39.99</p>
+                       </div>
+
+                </div>
+
+            </div>
+        </div>
+
     </section>
+
 
     <h1 class=" font-bold text-3xl pb-5 mx-20 relative -bottom-24 H-96">EveryDay Low Price</h1>
     <section class=" md:flex mx-20 mt-24 mb-6 md:gap-5 h-auto ">
@@ -207,7 +429,7 @@
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-20  gap-5px">
-            <div class="card bg-base-100 w-72 shadow-xl">
+            <div class="card bg-base-100 w-72 shadow-xl  sm:mb-4">
                 <figure class="px-10 pt-10">
                     <img src="c1-assets/dog-1.jpg" alt="Shoes" class="rounded-xl" />
                 </figure>
@@ -219,7 +441,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card bg-base-100 w-72 shadow-xl">
+            <div class="card bg-base-100 w-72 shadow-xl  sm:mb-4">
                 <figure class="px-10 pt-10">
                     <img src="c1-assets/dog-2.jpg" alt="Shoes" class="rounded-xl" />
                 </figure>
@@ -231,7 +453,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card bg-base-100 w-72 shadow-xl">
+            <div class="card bg-base-100 w-72 shadow-xl  sm:mb-4">
                 <figure class="px-10 pt-10">
                     <img src="c1-assets/cat-1.jpg" alt="Shoes" class="rounded-xl" />
                 </figure>
@@ -243,7 +465,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card bg-base-100 w-72 shadow-xl">
+            <div class="card bg-base-100 w-72 shadow-xl  sm:mt4">
                 <figure class="px-10 pt-10">
                     <img src="c1-assets/cat-2.jpg" alt="Shoes" class="rounded-xl" />
                 </figure>
